@@ -1,0 +1,252 @@
+/* button{
+    color: rgb(100, 157, 167);
+}
+
+#tablerows{
+    background-color: blueviolet;
+    text-align: center;
+}
+input,select{
+    background-color: chartreuse;
+}
+#Heading{
+    background-color: coral;
+}
+#btncolor{
+    background-color: purple;
+} */
+
+/*
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: royalblue;
+}
+table{
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+
+Date:30-10-2020
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.box1{
+    background-color: lawngreen;
+    width: 10%;
+    float: right;
+}
+
+.box2{
+    background-color: red;
+    width: 10%;
+    float: right;
+}
+
+.box3{
+    background-color: blue;
+    width: 10%;
+    float: right;
+
+}
+
+.box4{
+    background-color: yellow;
+    width: 70%;
+    float: right;
+}
+.boxa{
+    background-color: violet;
+    width: 33.3%;
+    height: 300px;
+    float: right;
+}
+.boxb{
+    background-color:grey;
+    width: 33.3%;
+    height: 300px;
+    float: right;
+}
+.boxc{
+    background-color: pink;
+    width: 33.3%;
+    height: 300px;
+    float: right;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #box1{
+    background-color: blueviolet;
+}
+
+#box2{
+    background-color:red;
+    
+    
+}
+
+.box1{
+    background-color: sandybrown;
+    display: inline-block;
+    width:200px;
+    flex: ;
+   
+}
+
+.box2{
+    background-color: greenyellow;
+    display:inline-block;
+    width:200px;
+    
+} */
+
+
+
+
+
+//date: 29-oct-2020
+
+
+
+
+
+
+/* *{
+    margin: 0px;
+    padding:0px ;
+}
+.header{
+    background-color: indigo;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: violet;
+    display: flex;
+}
+
+.s1{
+    background-color: lightcoral;
+    text-align: center;
+    width: 25%;
+}
+.s2{
+    background-color: green;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+}
+.s3{
+    background-color:yellow;
+    text-align: center;
+    width: 25%;
+}
+
+.footer{
+    background-color: tomato;
+    text-align: center;
+}
+
+
+
+
+ .firstlayer{
+    background-color: skyblue;
+    width: 100%;
+}
+.secondlayer{
+    background-color:greenyellow;
+    width: 100%;
+} 
+
+ *{
+    padding: 0px;
+}
+nav{
+  background-color:black;
+ 
+}
+nav ul li {
+    list-style: none;
+    line-height: 40px;
+    height: 40px;
+    padding: 10px;
+    width: 100;
+}
+nav ul li a{
+    color: royalblue;
+    text-decoration: none;
+    background-color: white; 
+}
+
+nav > ul{
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    
+}
+nav ul li ul li{
+    display: none;
+}
+
+nav ul li:hover ul li{
+    background-color: white;
+    display: block;
+}
+li{
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+
+ 
+ .container{
+     background-color:green;
+     width: 100px;
+     animation-name: Anim;
+     animation-duration: 5s;
+ }
+ @keyframes Anim{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+ }
+
+ div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: Anim;
+    animation-duration: 4s;
+  }
+*/

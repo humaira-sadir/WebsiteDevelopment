@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <p>Sample Text</p>
+
+    <script>
+        document.write("Hello");
+     var n = prompt("Enter n value");
+     var r = prompt("Enter r value");
+     var n_fac=1;
+     var r_fac=1;
+
+        for(var i=n; i >=1; i--){
+            n_fac=i*n_fac;  
+            r_fac=i*r_fac;  
+        }
+        for(var i=r; i >=1; i--){  
+            r_fac=i*r_fac;  
+        }
+        var formula=((n_fac/(n-r))*r_fac);
+        document.write(formula);
+        
+
+
+        // if(((ABC < EFG) && (ABC == 123)) && (EFG > 500) && ((EFG*ABC) > 100)){
+        //     // document.write(ABC);
+        //     // Temp = ABC;
+        //     console.log(ABC);
+        // }else{
+        //     ABC = 'Not Matched!';
+        //     console.log('Not Matched!');
+        // }
+
+        // alert(ABC);
+
+// Date 2-Nov-2020(Monday)
+//         <script>
+//         var input=prompt("Enter value N");
+//         for(var i=input; i>=0; i--){
+//             for(var j=i; j>=0; j--){
+//                 document.write('&nbsp');
+//             }
+//             document.write('*');
+//             document.write('<br>');
+//         }
+//     </script>
+
+
+    </script>
+</body>
+</html>
