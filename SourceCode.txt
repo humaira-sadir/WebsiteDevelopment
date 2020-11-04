@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preiodic Table </title>
+    <style>
+        *{padding:0; margin:0;}
+#layout{ border: 15px solid;}
+#page{ border:#FF7F50; padding:10px; background-color:#FF7F50; }
+td {
+  border: solid;  
+  border-radius: 15px;
+  border-color:black;
+  padding: 7px; 
+  width: 50px;
+  height: 15px;  
+}
+    </style>
+<script>
+    function bigImg(x) {
+      x.style.height = "64px";
+      x.style.width = "64px";
+    }
+    
+    function normalImg(x) {
+      x.style.height = "32px";
+      x.style.width = "32px";
+    }
+    </script>
+</head>
+<body >
+   <div id="layout" >
+    <div id="page" align="center" >
+        <h1>PREIODIC TABLE</h1>
+    <table >
+        <tr >
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FF8C00"><h5>1</h5><h2>H</h2></td>
+            <td colspan="16"  id="page" ></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#B0E0E6"><h5>2</h5><h2>He</h2></td>
+        </tr>
+        <tr>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FF00FF"><h5>3</h5><h2>Li</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#00BFFF"><h5>4</h5><h2>Be</h2></td>
+            <td colspan="10" id="page"></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#DAA520"><h5>5</h5><h2>B</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FF8C00"><h5>6</h5><h2>C</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FF8C00"><h5>7</h5><h2>N</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FF8C00"><h5>8</h5><h2>O</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFACD"><h5>9</h5><h2>F</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#B0E0E6"><h5>10</h5><h2>Ne</h2></td>
+        </tr>
+        <tr>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FF00FF"><h5>11</h5><h2>Na</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#00BFFF"><h5>12</h5><h2>Mg</h2></td>
+                <td colspan="10" id="page"></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#7CFC00"><h5>13</h5><h2>Al</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#DAA520"><h5>14</h5><h2>Si</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FF8C00"><h5>15</h5><h2>P</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FF8C00"><h5>16</h5><h2>S</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFACD"><h5>17</h5><h2>Cl</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#B0E0E6"><h5>18</h5><h2>Ar</h2></td>
+        </tr>
+        <tr>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FF00FF"><h5>19</h5><h2>K</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#00BFFF"><h5>20</h5><h2>Ca</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>21</h5><h2>Sc</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>22</h5><h2>Ti</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>23</h5><h2>V</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>24</h5><h2>Cr</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>25</h5><h2>Mn</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>26</h5><h2>Fe</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>27</h5><h2>Co</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>28</h5><h2>Ni</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>29</h5><h2>Cu</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>30</h5><h2>Zn</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#7CFC00"><h5>31</h5><h2>Ga</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#DAA520"><h5>32</h5><h2>Ge</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#DAA520"><h5>33</h5><h2>As</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FF8C00"><h5>34</h5><h2>Se</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFACD"><h5>35</h5><h2>Br</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#B0E0E6"><h5>36</h5><h2>Kr</h2></td>
+        </tr>
+        <tr>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FF00FF"><h5>37</h5><h2>Rb</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#00BFFF">38<h5></h5><h2>Sr</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00">39<h5></h5><h2>Y</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00">40<h5></h5><h2>Zr</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00">41<h5></h5><h2>Nb</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00">42<h5></h5><h2>Mo</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00">43<h5></h5><h2>Tc</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00">44<h5></h5><h2>Ru</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00">45<h5></h5><h2>Rh</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00">46<h5></h5><h2>Pd</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00">47<h5></h5><h2>Ag</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00">48<h5></h5><h2>Cd</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#7CFC00">49<h5></h5><h2>In</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#7CFC00">50<h5></h5><h2>Sn</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#DAA520">51<h5></h5><h2>Sb</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#DAA520">52<h5></h5><h2>Te</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFACD">53<h5></h5><h2>I</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#B0E0E6">54<h5></h5><h2>Xe</h2></td>
+        </tr>
+        <tr>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FF00FF"><h5>55</h5><h2>Cs</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#00BFFF"><h5>56</h5><h2>Ba</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFB6C1"><h5>57</h5><h2>La</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>72</h5><h2>Hf</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>73</h5><h2>Ta</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>74</h5><h2>W</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>75</h5><h2>Re</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>76</h5><h2>Os</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>77</h5><h2>Ir</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>78</h5><h2>Pt</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>79</h5><h2>Au</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>80</h5><h2>Hg</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#7CFC00"><h5>81</h5><h2>Ti</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#7CFC00"><h5>82</h5><h2>Pb</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#7CFC00"><h5>83</h5><h2>Bi</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#DAA520"><h5>84</h5><h2>Po</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFACD"><h5>85</h5><h2>At</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#B0E0E6"><h5>86</h5><h2>Rn</h2></td>
+        </tr>
+        <tr>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FF00FF"><h5>87</h5><h2>Fr</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#00BFFF"><h5>88</h5><h2>Ra</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFB6C1"><h5>89</h5><h2>Ac</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>104</h5><h2>Rf</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>105</h5><h2>Db</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>106</h5><h2>Sg</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>107</h5><h2>Bh</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>108</h5><h2>Hs</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>109</h5><h2>Mt</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>110</h5><h2>Ds</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>111</h5><h2>Rg</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFFF00"><h5>112</h5><h2>Cn</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFE4E1"><h5>113</h5><h2>Nh</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFE4E1"><h5>114</h5><h2>Fi</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFE4E1"><h5>115</h5><h2>Mc</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFE4E1"><h5>116</h5><h2>Lv</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFE4E1"><h5>117</h5><h2>Ts</h2></td>
+                <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32" bgcolor="#FFE4E1"><h5>118</h5><h2>Og</h2></td>
+        </tr>
+    </table>
+    <br/>
+    <table>
+     
+        <tr bgcolor="#FFB6C1">
+            <td  onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">58<h5></h5><h2>Ce</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">59<h5></h5><h2>Pr</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">60<h5></h5><h2>Nd</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">61<h5></h5><h2>Pm</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">62<h5></h5><h2>Sm</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">63<h5></h5><h2>Eu</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">64<h5></h5><h2>Gd</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">65<h5></h5><h2>Tb</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">66<h5></h5><h2>Dy</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">67<h5></h5><h2>Ho</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">68<h5></h5><h2>Er</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">69<h5></h5><h2>Tm</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">70<h5></h5><h2>Yb</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">71<h5></h5><h2>Lu</h2></td></tr>
+        <tr bgcolor="#FFB6C1">
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">90<h5></h5><h2>Th</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">91<h5></h5><h2>Pa</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">92<h5></h5><h2>U</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">93<h5></h5><h2>Np</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">94<h5></h5><h2>Pu</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">95<h5></h5><h2>Am</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">96<h5></h5><h2>Cm</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">97<h5></h5><h2>Bk</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">98<h5></h5><h2>Cf</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">99<h5></h5><h2>Es</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">100<h5></h5><h2>Fm</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">101<h5></h5><h2>Md</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">102<h5></h5><h2>No</h2></td>
+            <td onmouseover="bigImg(this)" onmouseout="normalImg(this)"  border="0" width="32" height="32">103<h5></h5><h2>Lr</h2></td>
+        </tr>
+    </table>
+    </div>
+</div> 
+</body>
+</html>
