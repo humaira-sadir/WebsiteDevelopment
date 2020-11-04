@@ -1,0 +1,36 @@
+
+#smile{
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+width: 200px;
+height: 200px;
+
+}
+#finger{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;   
+}
+
+@keyframes anim{
+    0%{opacity: 100%;
+    
+    }
+    25%{opacity: 0%;
+    }
+    50%{
+        opacity: 100%
+        
+    }
+    100%{
+        opacity: 0%; 
+        
+    }
+}
